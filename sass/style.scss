@@ -1,2 +1,5 @@
 // RESET
-@use "base/reset" as *;
+@import "base/reset";
+
+// HOME
+@import "../sass/pages/home";
