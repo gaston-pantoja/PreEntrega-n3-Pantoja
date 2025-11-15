@@ -82,4 +82,14 @@ header {
   font-weight: bold;
 }
 
+main {
+  text-align: center;
+}
+main section div h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* imagenes del los productos del index */
+
 /*# sourceMappingURL=main.css.map */
