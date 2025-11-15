@@ -1,0 +1,106 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tienda Online - Inicio</title>
+  <!-- link de bt -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- link de css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- link de tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- paginas -->
+  <header>
+    <div class="buscador">
+      <form action="#" method="get">
+          <input type="search" name="buscar" placeholder="buscar objeto">
+      </form>
+    </div>
+    <div class="contenedor">
+      <a href="index.html" class="logo"><img src="img/logotipo.webp" alt="Logo tienda" width="90"></a>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./pages/productos.html">Productos</a></li>
+          <li><a href="./pages/tiendas.html">Tienda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- menu hamburguesa con bt -->
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+  <div class="bg-dark p-4">
+    <h5 class="text-body-emphasis h4">Collapsed content</h5>
+    <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>  
+    <section>
+      <div>
+        <h1>Bienvenido a Nuestra Tienda</h1>
+        <p>Encuentra productos seleccionados con envío a todo el país.</p>
+      </div>
+    </section>
+        <!-- productos -->
+    <section class="productos">
+      <h2>Productos destacados</h2>
+      <div class="productos-uno">
+        <article class="card imagen-uno">
+          <img src="img/bici.jpg" width="350" alt="bicicleta deportiva">
+          <h2>bicicleta para deportes</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam id reiciendis ab atque nam officia <br>in quibusdam sed numquam libero ipsum earum.</h3>
+          <p>$19.99</p>
+          <a class="btn" href="./pages/productos.html">Comprar</a>
+        </article>
+        <article class="card imagen-dos">
+          <img src="img/mochila.png" width="250" alt="mochila grande">
+          <h2>mochila grande</h2>
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Quia beatae, facere iure voluptatem nesciunt vel nam repudiandae iste quo.</h3>
+          <p>$29.99</p>
+          <a class="btn" href="./pages/productos.html">Comprar</a>
+        </article>
+        <article class="card imagen-tres">
+          <img src="img/teclado.png" width="350" alt="teclado rgb">
+          <h2>teclado de 75%</h2>
+          <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nam, doloremque nihil modi quasi <br>at vitae, harum et accusantium illo explicabo veritatis neque. <br>Laboriosam beatae nemo facilis. Vero, reprehenderit eligendi?</h3>
+          <p>$39.99</p>
+          <a class="btn" href="./pages/productos.html">Comprar</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="derechos">
+      <p class="copy">&copy; Tienda Online. Todos los derechos reservados.</p>
+      <ul class="social">
+        <li>
+          <a target="_blank" href="https://x.com/i/flow/login"><img src="img/x.png" alt="logotipo de x" width="50"></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.facebook.com/home.php"><img src="img/facebook.jpg" alt="logotipo de facebook" width="50"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<!-- link de bt -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
