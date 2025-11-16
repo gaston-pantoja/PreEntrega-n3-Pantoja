@@ -2,8 +2,11 @@
 @import "base/reset";
 
 // HOME
-@import "../sass/pages/home";
+@import "pages/home";
 
 // TABLET
 @import "layout/mq-tablet";
+
+// MOBILE
+@import "layout/mq-mobile";
 
