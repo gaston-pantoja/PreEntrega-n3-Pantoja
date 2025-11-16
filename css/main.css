@@ -91,5 +91,109 @@ main section div h1 {
 }
 
 /* imagenes del los productos del index */
+.productos-uno {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "imagen-uno imagen-dos imagen-tres" "imagen-uno imagen-dos imagen-tres";
+  gap: 20px;
+  justify-items: center;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+.productos-uno .imagen-uno {
+  grid-area: imagen-uno;
+}
+.productos-uno .imagen-dos {
+  grid-area: imagen-dos;
+}
+.productos-uno .imagen-tres {
+  grid-area: imagen-tres;
+}
+
+.producto {
+  width: 300px;
+}
+.producto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* texto de los productos y boton */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a0a0a0;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+.card p {
+  font-weight: bold;
+  color: #900;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn :hover {
+  background-color: #c00;
+}
+
+/* estilos de footer */
+footer {
+  background-color: #a0a0a0;
+  padding: 30px 40px;
+}
+
+.derechos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.derechos p {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+/* lista de redes */
+.social {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social li img {
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* productos.html */
+.pagina2 h1 {
+  color: #900;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=main.css.map */
