@@ -16,6 +16,12 @@
         margin: 0;
     }
 
+    .logo{
+        img{
+            border-radius: 10%;
+        }
+    }
+
     .productos-uno{
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
