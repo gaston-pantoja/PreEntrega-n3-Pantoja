@@ -9,6 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!-- link de css -->
   <link rel="stylesheet" href="css/main.css">
+  <!-- link de animacion -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <!-- link de tipografia -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,15 +25,20 @@
           <input type="search" name="buscar" placeholder="buscar objeto">
       </form>
     </div>
+    
     <div class="contenedor">
-      <a href="index.html" class="logo"><img src="img/logotipo.webp" alt="Logo tienda" width="90"></a>
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="./pages/productos.html">Productos</a></li>
-          <li><a href="./pages/tiendas.html">Tienda</a></li>
-        </ul>
-      </nav>
+      <a href="index.html" class="logo"><img class="animate__animated animate__bounce" src="img/logotipo.webp" alt="Logo tienda" width="90"></a>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/tiendas.html">Tienda</a></li>
+          </ul>
+        </nav>
+        
+        <div class="menu-wrapper">
+          <img src="img/usuario.png" alt="icono de usuario">
+        </div class="menu-wrapper">
     </div>
   </header>
 
@@ -68,7 +75,7 @@
           <a class="btn" href="./pages/productos.html">Comprar</a>
         </article>
         <article class="card imagen-dos">
-          <img src="img/mochila.png" width="250" alt="mochila grande">
+          <img src="img/nueva-mochila.png" width="250" alt="mochila grande">
           <h2>mochila grande</h2>
           <h3>Ideal para estudiantes, viajeros o uso diario, esta mochila grande ofrece amplio espacio y múltiples compartimentos para mantener todo organizado.</h3>
           <p>$29.99</p>

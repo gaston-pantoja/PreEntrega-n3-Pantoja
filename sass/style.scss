@@ -1,12 +1,12 @@
 // RESET
-@import "base/reset";
+@use "base/reset";
 
 // HOME
-@import "pages/home";
+@use "pages/home";
 
 // TABLET
-@import "layout/mq-tablet";
+@use "layout/mq-tablet";
 
 // MOBILE
-@import "layout/mq-mobile";
+@use "layout/mq-mobile";
 
